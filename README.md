@@ -23,8 +23,15 @@ I learn by breaking things (legally): I compete in **Capture The Flag** competit
 ## 🏁 CTF
 
 - **Team:** IHU_Serres
-- **SolarCTF 2026** — participant
+- **cruXipher 2026** — 8 challenges solved, 650 pts (forensics, rev, OSINT, misc)
 - Write-ups: [ctf-writeups](https://github.com/foxplo1t/ctf-writeups)
+
+| Challenge | Category | Technique |
+|---|---|---|
+| [PDF Prince](https://github.com/foxplo1t/ctf-writeups/blob/main/2026/cruXipher/forensics/pdf-prince.md) | forensics | PDF incremental updates, hidden OCG key, XOR |
+| [house-music](https://github.com/foxplo1t/ctf-writeups/blob/main/2026/cruXipher/forensics/house-music.md) | audio steg | L−R side channel, pigpen spectrogram |
+| [t2f-program](https://github.com/foxplo1t/ctf-writeups/blob/main/2026/cruXipher/rev/t2f-program.md) | rev | Tampered deflate Huffman table |
+| [Paper CPU](https://github.com/foxplo1t/ctf-writeups/blob/main/2026/cruXipher/rev/paper-cpu.md) | rev / vm | ISA inference + emulator |
 
 ## 📜 Certifications
 
